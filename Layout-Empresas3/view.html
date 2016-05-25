@@ -1,0 +1,154 @@
+﻿<!doctype html>  
+<html>  
+<head>  
+<meta charset="utf-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>JOVENS DE SUCESSO</title>  
+  <link href="bootstrap3/css/bootstrap.min.css" rel="stylesheet" type="text/css">  
+  <link href="bootstrap3/css/bootstrap.css" rel="stylesheet">  
+  <link href="bootstrap3/css/bootstrap-responsive.css" rel="stylesheet">  
+  <link href="bootstrap3/css/bootstrap-responsive.min.css" rel="stylesheet">  
+  <link href="assets/css/get-shit-done.css" rel="stylesheet" />
+  <link href="assets/css/demo.css" rel="stylesheet" />
+  <link href="bootstrap3\css\estilo1.css" rel="stylesheet" type="text/css">
+</head>  
+  
+<body>  
+<!-- inicio nav  -->   
+<div id="nav">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+   <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+     <span class="sr-only">Toggle navigation</span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+     <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand">&nbsp;&nbsp;&nbsp;JOVENS DE SUCESSO</a>
+   </div>
+   <div id="navbar" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-right">
+     <li ><a class="nome-usuario" href="#">"Nome usuario logado"</a></li>
+     <li>
+     <a data-toggle="modal" data-target="#myModal" href="#"><strong>Agendar palestra</strong></a>
+     </li> 
+      <li><a href="view2.html">Conversa completa</a></li>
+     <li><a href="login.html">Sair</a></li>
+    </ul>
+   </div>
+  </div>
+ </nav>
+ </div>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Agendar palestra</h4>
+                      </div>
+                      <div class="modal-body">                
+<!-- form modal  --> 
+                    <form class="navbar-form pull-left" action="inicial.html">
+                          <form class="form-inline">
+
+                            <div class="form-group">
+                              <label >Data da palestra:</label>
+                              <input type="date" class="form-control"><br>
+                            </div>
+
+                            <div class="form-group">
+                              <label >Hora da palestra:</label>
+                              <input type="time" class="form-control"><br>
+                            </div>
+
+                            <div class="form-group">
+                              <label >Palestrante?:</label>
+                              <input type="text" class="form-control"><br>
+                            </div>
+
+                            <div class="form-group">
+                              <label >Responsavel:</label>
+                              <input type="text" class="form-control"><br>
+                            </div>
+
+                            <div class="form-group">
+                              <label >Número de funcionários:</label>
+                              <input type="number" class="form-control"><br>
+                            </div>
+
+                            <div class="form-group">
+                              <label >Número de vendas:</label>
+                              <input type="number" class="form-control"><br>
+                            </div>
+                        <button type="submit" class="btn btn-default">Enviar</button>
+                    </form>
+<!-- form modal  --><!-- footer modal  -->
+                      </div>
+                      <div class="modal-footer">
+                        <div class="divider"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<!-- fim nav  --><!-- inicio main  -->  
+
+<div id="main">
+<div class="container">
+<h3 class="page-header">Conversa Completa</h3>
+  
+  <div class="row">
+
+    <div class="col-md-3">
+      <p><strong>Data</strong></p>
+      <p>10/10/2014</p>
+    </div>
+  
+  <div class="col-md-3">
+      <p><strong>Contato da empresa</strong></p>
+      <p>João</p>
+    </div>
+  
+  <div class="col-md-3">
+      <p><strong>Contato da Jovens de Sucesso</strong></p>
+      <p>Rodrigo</p>
+    </div>
+
+    <div class="col-md-3">
+      <p><strong>Foi agendado palestra</strong></p>
+      <p>Sim</p>
+    </div>
+  
+    <div class="col-md-11">
+      <p><strong>Descrição da conversa</strong></p>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    In bibendum nunc urna, at vestibulum neque pellentesque eget. 
+    Maecenas lacinia velit ante, vitae fermentum ex interdum et. 
+    In vel sollicitudin leo, id fermentum augue. </p>
+    </div>
+ </div>
+ 
+ <hr/>
+ <div id="actions" class="row">
+   <div class="col-md-12">
+     <a href="inicial.html" class="btn btn-danger">Fechar</a>
+     <a href="view2.html" class="btn btn-danger">Historico completo</a>
+   </div>
+ </div>
+</div>
+</div>
+<!-- fim main  -->
+
+</body> 
+  <script src="jquery/jquery-1.10.2.js" type="text/javascript"></script>
+  <script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+  <script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+  <script src="assets/js/gsdk-checkbox.js"></script>
+  <script src="assets/js/gsdk-radio.js"></script>
+  <script src="assets/js/gsdk-bootstrapswitch.js"></script>
+  <script src="assets/js/get-shit-done.js"></script>
+  <script src="assets/js/custom.js"></script> 
+</html>  
+
+
